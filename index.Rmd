@@ -5,7 +5,7 @@ date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
 output:
   revealjs::revealjs_presentation:
     theme: moon
-    highlight: zenburn
+    highlight: haddock
     center: false
     self_contained: false
     reveal_plugins: ["notes"]
@@ -38,15 +38,36 @@ xxxx
 
 xxxx
 
-# Dead and missing migrants
+# Dead and missing migrants\n in the Mediterannean area {data-background="img/shipwreck.jpg"}
 
-xxx
+## Starting point
 
-## World Overview
+<img src="img/guardian.png"/>
+<small>https://www.theguardian.com</small>
 
-xxx
+## What about data?
 
-## xxx
+* from 1993: United for Intercultural Action
+* from 1997: Gabriele Del Grande Blog
+* from 2014 to 2016: The Migrants' Files
+* from 2016: International Organization for Migration (IOM)
+
+<img src="img/IOM.png"/>
+
+
+## Clochard 0., 2003
+
+<img src="img/clochard.png"/>
+
+## Rekacewicz P., 2006
+
+<img src="img/reka.png"/>
+
+## Migreurop, 2009, 2012, 2018, ...
+
+<img src="img/migreurop.png"/ style="border:0px ; background-color:"red"/>
+
+# Reproducible approach
 
 AAA
 
