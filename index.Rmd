@@ -15,28 +15,36 @@ output:
 
 xxx
 
-# R, Git, etc...
+# Reproducible Workflow
 
-## Reproducibility & sciences
-
-xxxx
-
-## Git
-
-xxxx
-
-## Markdown
-
-xxxx
+## R for Spatial Analysis
 
 ## R
+## R Spatial
 
-xxxx
 
 
-## R & spatial
+## Ensuring Traceability and Collaborative Work
 
-xxxx
+## Literate programing with Markdown
+
+<img src="img/mardown1.png"/>
+
+## 
+
+<img src="img/markdown2.png"/>
+
+
+
+## Version Control System with Git
+
+<img src="img/git1.png"/>
+
+## 
+
+<img src="img/git2.png"/>
+
+
 
 # Dead and missing migrants\n in the Mediterannean area {data-background="img/shipwreck.jpg"}
 
