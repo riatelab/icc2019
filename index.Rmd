@@ -1,31 +1,36 @@
 ---
 title: "Untitled"
-output: revealjs::revealjs_presentation
+author: "T. Giraud & N. Lambert"
+date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
+output:
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: tango
+    center: false
+    self_contained: false
+    reveal_plugins: ["notes"]
 ---
 
-## INTRO
+# INTRO
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+xxx
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+# R, Git, etc...
 
-## R, Git, etc...
+xxx
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+# Dead and missing migrants
 
+xxx
 
+## xxxx
 
-## Dead and missing migrants
+AAA
 
-```{r}
-summary(cars)
-```
+## xxxx
 
-## Conclusion
+BBB
 
-```{r, echo=FALSE}
-plot(cars)
-```
+# Conclusion
 
+xxx
