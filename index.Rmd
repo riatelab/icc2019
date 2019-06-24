@@ -5,7 +5,7 @@ date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
 output:
   revealjs::revealjs_presentation:
     theme: moon
-    highlight: tango
+    highlight: zenburn
     center: false
     self_contained: false
     reveal_plugins: ["notes"]
@@ -17,13 +17,36 @@ xxx
 
 # R, Git, etc...
 
-xxx
+## Reproducibility & sciences
+
+xxxx
+
+## Git
+
+xxxx
+
+## Markdown
+
+xxxx
+
+## R
+
+xxxx
+
+
+## R & spatial
+
+xxxx
 
 # Dead and missing migrants
 
 xxx
 
-## xxxx
+## World Overview
+
+xxx
+
+## xxx
 
 AAA
 
