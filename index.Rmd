@@ -80,12 +80,55 @@ xxx
 
 # Reproducible approach
 
-AAA
 
-## xxxx
 
-BBB
+## From January 2014 to June 2019
+
+<img src="img/chart1.png"/>
+
++ Apr 2015: 1222
++ May 2016: 1178
++ Jul 2014:  864
++ Sep 2014:  813
++ Nov 2016:  718
+
+## Vision 1: proportional symbols
+
+<img src="img/rawPlot.png"/>
+
+## Vision 2: Aggregation by cluster analysis
+
+<img src="img/CAH.png"/>
+
+## Vision 3: On a 100km² resolution regular grid
+
+<img src="img/gridPlot.png"/>
+
+## Vision 4: Smoothing (stewart method)
+
+<img src="img/smooth1.png"/>
+
+## Vision 4: Smoothing (stewart method){data-transition="fade-in fade-out"}
+
+<img src="img/smooth1.png"/>
+
+Tanaka
+
+<img src="img/logo_icc.jpg"/>
+
+
+## Vision 5: Inverted Smoothing (stewart method)
+
+<img src="img/smooth2.png"/>
+
+## Vision 5: Inverted Smoothing (A Cartographic Metaphor)
+
+<img src="img/metaphor.png"/>
+
+## Vision 6: Dorling Cartogram
+
+<img src="img/dorling.png"/>
 
 # Conclusion
 
-xxx
+xxx 
