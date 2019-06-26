@@ -22,7 +22,7 @@ xxx
 ## R
 ## R Spatial
 
---
+<img src="img/chain3.png"/>
 
 ## Ensuring Traceability and Collaborative Work
 
