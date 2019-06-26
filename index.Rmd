@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Reproducible Workflow for Cartography - Migrants Deaths in the Mediterranean sea"
 author: "T. Giraud & N. Lambert"
 date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
 output:
