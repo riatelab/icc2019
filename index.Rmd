@@ -44,7 +44,10 @@ xxx
 
 <img src="img/git2.png"/>
 
+## 
 
+<img src="img/git3.jpg"/>
+<small>Ram, 2013</small>
 
 # Dead and missing migrants\n in the Mediterannean area {data-background="img/shipwreck.jpg"}
 
