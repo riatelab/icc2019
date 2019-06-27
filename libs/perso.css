@@ -1,0 +1,27 @@
+.slide {
+ padding:7px;
+background-image:url(../img/back.png);
+background-repeat: repeat;
+ }
+
+.slide h2 {
+    font-size: 1.5em;
+    background-color: #272822;
+    top: 0px;
+    left: 0px;
+    height: 32px;
+    width: 100%;
+    color : #f0f4fa;
+    text-align:center;
+     padding-top:4px;
+     padding-bottom:4px;
+  }
+  
+  .remark-slide-number {
+  font-size: 8pt;
+  margin-bottom: -13px;
+  margin-right: -20px;
+  background-color:#272822;
+  color : #f0f4fa;
+  padding:2px;
+}

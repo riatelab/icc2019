@@ -10,9 +10,10 @@ output:
       - default
       - default-fonts 
       - "libs/animate.min.css"
+      - "libs/perso.css"
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## INTRO
 
@@ -32,19 +33,19 @@ Pour Tim : mets tes notes ici et appuie sur p pour les afficher !
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## R for Spatial Analysis
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## R
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## R Spatial
 
@@ -53,13 +54,13 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Ensuring Traceability and Collaborative Work
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Literate programing with Markdown
 
@@ -71,7 +72,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Version Control System with Git
 
@@ -79,7 +80,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ##  xxx
 
@@ -87,7 +88,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## xxx
 
@@ -105,7 +106,7 @@ background-size: cover
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Starting point
 
@@ -114,7 +115,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## What about data?
 
@@ -131,7 +132,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Clochard 0., 2003
 
@@ -139,7 +140,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Rekacewicz P., 2006
 
@@ -147,7 +148,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Migreurop, 2009, 2012, 2018, ...
 
@@ -161,15 +162,15 @@ class: inverse, center, middle, animated, zoomIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
-# Reproducible approach
+## Reproducible approach
 
 <img src="img/mdm.png"/>
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 
 ## From January 2014 to June 2019
@@ -184,7 +185,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 1: proportional symbols
 
@@ -192,7 +193,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 2: Aggregation by cluster analysis
 
@@ -200,7 +201,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 3: On a 100km² resolution regular grid
 
@@ -208,7 +209,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 4: Smoothing (stewart method)
 
@@ -216,7 +217,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 4: Smoothing (stewart method)
 
@@ -228,7 +229,7 @@ Tanaka
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 5: Inverted Smoothing (stewart method)
 
@@ -236,7 +237,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 5: Inverted Smoothing (A Cartographic Metaphor)
 
@@ -244,7 +245,7 @@ class: animated, fadeIn
 
 ---
 
-class: animated, fadeIn
+class: slide, animated, fadeIn
 
 ## Vision 6: Dorling Cartogram
 
