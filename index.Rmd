@@ -11,6 +11,7 @@ output:
       - default-fonts 
       - "libs/animate.min.css"
       - "libs/perso.css"
+
 ---
 
 class: slide, animated, fadeIn
@@ -21,11 +22,12 @@ xxx
 
 ---
 
-class: inverse, center, middle, animated, zoomIn
+class: inverse, center, bottom, animated, zoomIn
+
+background-image: url("img/361383.jpg")
+background-size: cover
 
 ## Reproducible Workflow
-
-WWW
 
 ???
 
@@ -132,33 +134,32 @@ class: slide, animated, fadeIn
 
 ---
 
-class: slide, animated, fadeIn
+class: center, slide, animated, fadeIn
+
+background-image: url("img/clochard.png")
+background-size: cover
 
 ## Clochard 0., 2003
 
-<img src="img/clochard.png"/>
-
 ---
 
 class: slide, animated, fadeIn
+
+
+background-image: url("img/reka.png")
+background-size: cover
 
 ## Rekacewicz P., 2006
 
-<img src="img/reka.png"/>
 
 ---
 
 class: slide, animated, fadeIn
 
+background-image: url("img/migreurop.png")
+background-size: cover
+
 ## Migreurop, 2009, 2012, 2018, ...
-
-<img src="img/migreurop.png"/>
-
----
-
-class: inverse, center, middle, animated, zoomIn
-
-# Reproducible approach
 
 ---
 
@@ -191,6 +192,21 @@ class: slide, animated, fadeIn
 
 <img src="img/rawPlot.png"/>
 
+.pull-left[
+<img src="img/like.png" width="30px"/>
+- xxx
+- sss
+]
+
+.pull-right[
+<img src="img/dislike.png" width="30px"/>
+- xxx
+- sss
+- xxxx
+- zzz
+]
+
+
 ---
 
 class: slide, animated, fadeIn
@@ -217,15 +233,19 @@ class: slide, animated, fadeIn
 
 ---
 
-class: slide, animated, fadeIn
+class: center, slide, animated, fadeIn
 
 ## Vision 4: Smoothing (stewart method)
 
 <img src="img/smooth1.png"/>
 
-Tanaka
-
+.pull-left[
 <img src="img/logo_icc.jpg"/>
+]
+
+.pull-right[
+The **Tanaka package** has been released on CRAN. This package is a simplified implementation of the Tanaka method.
+]
 
 ---
 
@@ -258,3 +278,27 @@ class: inverse, left, top, animated, zoomIn
 # Conclusion
 
 xxx 
+
+---
+
+class: center, middle
+
+# Thanks!
+
+
+.pull-left[
+<img src="img/gittim.png" height="50px"/><br/><br/>
+[**Timothée Giraud**](https://rgeomatic.hypotheses.org/)<br/>timothee.giraud@cnrs.fr<br/>rgeomatic.hypotheses.org<br/>@rgeomatic
+
+]
+
+.pull-right[
+<img src="img/gitnico.jpg" height="50px"/><br/><br/>
+[**Nicolas Lambert**](https://neocarto.hypotheses.org/)<br/>nicolas.lambert@cnrs.fr<br/>neocarto.hypotheses.org<br/>@neocartocnrs
+]
+
+<br/><br/><hr/>
+
+The presentation was created via the R package xaringa and is available [**here**](https://riatelab.github.io/MDM/). Maps and code sources are available [**there**](https://riatelab.github.io/icc2019/). Test by yourself!
+
+<hr/>
