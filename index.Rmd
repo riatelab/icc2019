@@ -5,44 +5,61 @@ date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
-
----
-class: center, middle, animated, slideInRight
-
-# INTRO
-
-
+    lib_dir: libs
+    css:
+      - default
+      - default-fonts 
+      - "libs/animate.min.css"
 ---
 
+class: animated, fadeIn
 
-class: inverse, center, middle, animated, slideInRight
+## INTRO
+
+xxx
+
+---
+
+class: inverse, center, middle, animated, zoomIn
 
 ## Reproducible Workflow
 
----
+WWW
 
 ???
 
 Pour Tim : mets tes notes ici et appuie sur p pour les afficher ! 
 
+---
+
+class: animated, fadeIn
 
 ## R for Spatial Analysis
 
 ---
 
+class: animated, fadeIn
+
 ## R
 
 ---
 
+class: animated, fadeIn
+
 ## R Spatial
 
-<img src="img/chain3.png"/>
+
+<img src="img/chain3.png" width="100%" />
 
 ---
+
+class: animated, fadeIn
 
 ## Ensuring Traceability and Collaborative Work
 
 ---
+
+class: animated, fadeIn
 
 ## Literate programing with Markdown
 
@@ -54,17 +71,23 @@ Pour Tim : mets tes notes ici et appuie sur p pour les afficher !
 
 ---
 
+class: animated, fadeIn
+
 ## Version Control System with Git
 
 <img src="img/git1.png"/>
 
 ---
 
+class: animated, fadeIn
+
 ##  xxx
 
 <img src="img/git2.png"/>
 
 ---
+
+class: animated, fadeIn
 
 ## xxx
 
@@ -73,13 +96,16 @@ Pour Tim : mets tes notes ici et appuie sur p pour les afficher !
 
 ---
 
+class: inverse, center, bottom, animated, zoomIn
+
 background-image: url("img/shipwreck2.jpg")
 background-size: cover
-class: center, bottom, inverse
 
 # Dead and missing migrants in the Mediterannean area
 
 ---
+
+class: animated, fadeIn
 
 ## Starting point
 
@@ -88,16 +114,24 @@ class: center, bottom, inverse
 
 ---
 
+class: animated, fadeIn
+
 ## What about data?
 
-* from 1993: United for Intercultural Action
-* from 1997: Gabriele Del Grande Blog
-* from 2014 to 2016: The Migrants' Files
-* from 2016: International Organization for Migration (IOM)
+.pull-left[
+![an image](img/IOM.png)
+]
 
-<img src="img/IOM.png"/>
+.pull-right[
+- from 1993: United for Intercultural Action
+- from 1997: Gabriele Del Grande Blog
+- from 2014 to 2016: The Migrants' Files
+- from 2016: International Organization for Migration (IOM)
+]
 
 ---
+
+class: animated, fadeIn
 
 ## Clochard 0., 2003
 
@@ -105,11 +139,15 @@ class: center, bottom, inverse
 
 ---
 
+class: animated, fadeIn
+
 ## Rekacewicz P., 2006
 
 <img src="img/reka.png"/>
 
 ---
+
+class: animated, fadeIn
 
 ## Migreurop, 2009, 2012, 2018, ...
 
@@ -117,11 +155,22 @@ class: center, bottom, inverse
 
 ---
 
-class: inverse, center, middle
+class: inverse, center, middle, animated, zoomIn
 
 # Reproducible approach
 
 ---
+
+class: animated, fadeIn
+
+# Reproducible approach
+
+<img src="img/mdm.png"/>
+
+---
+
+class: animated, fadeIn
+
 
 ## From January 2014 to June 2019
 
@@ -135,11 +184,15 @@ class: inverse, center, middle
 
 ---
 
+class: animated, fadeIn
+
 ## Vision 1: proportional symbols
 
 <img src="img/rawPlot.png"/>
 
 ---
+
+class: animated, fadeIn
 
 ## Vision 2: Aggregation by cluster analysis
 
@@ -147,17 +200,23 @@ class: inverse, center, middle
 
 ---
 
+class: animated, fadeIn
+
 ## Vision 3: On a 100km² resolution regular grid
 
 <img src="img/gridPlot.png"/>
 
 ---
 
+class: animated, fadeIn
+
 ## Vision 4: Smoothing (stewart method)
 
 <img src="img/smooth1.png"/>
 
 ---
+
+class: animated, fadeIn
 
 ## Vision 4: Smoothing (stewart method)
 
@@ -169,11 +228,15 @@ Tanaka
 
 ---
 
+class: animated, fadeIn
+
 ## Vision 5: Inverted Smoothing (stewart method)
 
 <img src="img/smooth2.png"/>
 
 ---
+
+class: animated, fadeIn
 
 ## Vision 5: Inverted Smoothing (A Cartographic Metaphor)
 
@@ -181,11 +244,15 @@ Tanaka
 
 ---
 
+class: animated, fadeIn
+
 ## Vision 6: Dorling Cartogram
 
 <img src="img/dorling.png"/>
 
 ---
+
+class: inverse, left, top, animated, zoomIn
 
 # Conclusion
 
