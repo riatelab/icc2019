@@ -27,75 +27,63 @@ class: inverse, center, bottom, animated, zoomIn
 background-image: url("img/361383.jpg")
 background-size: cover
 
-## Reproducible Workflow
-
-???
-
-Pour Tim : mets tes notes ici et appuie sur p pour les afficher ! 
+## Ensuring Reproducibility and Collaborative Work
 
 ---
 
 class: slide, animated, fadeIn
 
-## R for Spatial Analysis
+## Ensuring Reproducibility and Collaborative Work with:
+
+### A free software for statistical computing and graphics
+
+### A literate programming solution
+
+### A version control system
+
 
 ---
 
 class: slide, animated, fadeIn
 
-## R
+## R : a free software for statistical computing and graphics
+
+
+R uses scripts based on a rich ecosystem of spatial-related libraries
+
+
 
 ---
 
 class: slide, animated, fadeIn
 
-## R Spatial
-
-
-<img src="img/chain3.png" width="100%" />
+## RMarkdown: a literate programming solution
+<img src="img/rmd.png" height=600/>
 
 ---
 
 class: slide, animated, fadeIn
 
-## Ensuring Traceability and Collaborative Work
+## RMarkdown: a literate programming solution
+<img src="img/html.png"height=600/>
 
 ---
 
 class: slide, animated, fadeIn
 
-## Literate programing with Markdown
-
-<img src="img/mardown1.png"/>
-
-## 
-
-<img src="img/markdown2.png"/>
-
----
-
-class: slide, animated, fadeIn
-
-## Version Control System with Git
-
-<img src="img/git1.png"/>
-
----
-
-class: slide, animated, fadeIn
-
-##  xxx
-
-<img src="img/git2.png"/>
-
----
-
-class: slide, animated, fadeIn
-
-## xxx
+## Git: a Version Control System
 
 <img src="img/git3.jpg"/>
 <small>Ram, 2013</small>
+
+---
+class: slide, animated, fadeIn
+
+## Git: a Version Control System
+
+<img src="img/git1.png"/>
+
+
 
 ---
 
