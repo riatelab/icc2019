@@ -6,7 +6,7 @@ background-repeat: repeat;
 
 .slide h2 {
     font-size: 1.5em;
-    background-color: #272822;
+    background-color: #052B36;
     top: 0px;
     left: 0px;
     height: 32px;
@@ -15,6 +15,7 @@ background-repeat: repeat;
     text-align:center;
      padding-top:4px;
      padding-bottom:4px;
+      opacity:0.6;
   }
   
   .remark-slide-number {
@@ -24,4 +25,19 @@ background-repeat: repeat;
   background-color:#272822;
   color : #f0f4fa;
   padding:2px;
+}
+
+
+table{
+  border: 0px solid white;
+  width: 100%;
+  
+}
+
+th, td {
+  border: 0px solid black;
+  width: 50%;
+  font-size: 0.7em;
+  background: white;
+}
 }
