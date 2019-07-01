@@ -60,7 +60,12 @@ class: slide, animated, fadeIn
 
 ## R : a free software for statistical computing and graphics
 
+.center[
+<img src="img/sche.png" width=500px/>   
+]
 
+
+???
 R uses scripts based on a rich ecosystem of spatial-related libraries
 
 
@@ -70,14 +75,18 @@ R uses scripts based on a rich ecosystem of spatial-related libraries
 class: slide, animated, fadeIn
 
 ## RMarkdown: a literate programming solution
+.center[
 <img src="img/rmd.png" height=600/>
-
+]
 ---
 
 class: slide, animated, fadeIn
 
 ## RMarkdown: a literate programming solution
+
+.center[
 <img src="img/html.png"height=600/>
+]
 
 ---
 
@@ -85,16 +94,19 @@ class: slide, animated, fadeIn
 
 ## Git: a Version Control System
 
+.center[
 <img src="img/git3.jpg"/>
 <small>Ram, 2013</small>
+]
 
 ---
 class: slide, animated, fadeIn
 
 ## Git: a Version Control System
 
+.center[
 <img src="img/git1.png"/>
-
+]
 
 
 ---
