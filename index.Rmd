@@ -299,8 +299,8 @@ class: slide, animated, fadeIn
 .center[
 <img src="img/like.png" width="40px"/>  | <img src="img/dislike.png" width="40px"/>
 ------------- | -------------
-Good overview | Content Cell
-Allows to detect the most dangerous areas (Libyan coasts) | Content Cell
+Good overview | Not natural representation
+Allows to detect the most dangerous areas (Libyan coasts) | Does not allow to consider the quantities
 ]
 
 ---
@@ -314,8 +314,8 @@ class: slide, animated, fadeIn
 .center[
 <img src="img/like.png" width="40px"/>  | <img src="img/dislike.png" width="40px"/>
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+highlights geographical structures  | The meaning of values is difficult to interpret
+Allows to locate the most dangerous areas  |
 ]
 
 ---
@@ -345,19 +345,28 @@ class: slide, animated, fadeIn
 .center[
 <img src="img/like.png" width="40px"/>  | <img src="img/dislike.png" width="40px"/>
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+highlights geographical structures   | xxx
+Allows to locate the most dangerous areas  | xxx
 ]
 
 
-<!-- --- -->
-<!-- class: slide, animated, fadeIn -->
+---
 
-<!-- ## Vision 5: Inverted Smoothing (A Cartographic Metaphor) -->
+class: slide, animated, fadeIn
 
-<!-- <img src="img/metaphor.png"/> -->
+## Vision 5: Inverted Smoothing (stewart method)
 
-<!-- --- -->
+<img src="img/smooth2.png"/>
+
+.center[
+<img src="img/like.png" width="40px"/>  | <img src="img/dislike.png" width="40px"/>
+highlights geographical structures   | xxx
+Allows to locate the most dangerous areas  | xxx
+]
+
+<img src="img/metaphor.png" id="topright"/>
+
+
 ---
 
 class: slide, animated, fadeIn
@@ -369,17 +378,17 @@ class: slide, animated, fadeIn
 .center[
 <img src="img/like.png" width="40px"/>  | <img src="img/dislike.png" width="40px"/>
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Good overview  | The location of the shipwrecks is inaccurate
+All known shipwrecks are displayed | 
 ]
 
 ---
 
-class: inverse, left, top, animated, zoomIn
+class: inverse, top, center, animated, zoomIn
 
 # Conclusion
 
-xxx 
+<img src="img/all.png"/>
 
 ---
 
@@ -401,6 +410,6 @@ class: center, middle
 
 <br/><br/><hr/>
 
-Maps and code sources are available on github:[**riatelab.github.io/MDM**](https://riatelab.github.io/MDM/). Test by yourself!
+Maps and code sources are available on github:[**riatelab.github.io/MDM**](https://riatelab.github.io/MDM/).<br/>Test by yourself!
 
 <hr/>
