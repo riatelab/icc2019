@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Workflow for Cartography - Multi Representations of Migrants Deaths in the Mediterranean sea"
-author: "T. Giraud & N. Lambert"
+author: "T. Giraud & N. Lambert  </br> </br>  ![](img/logocnrs.svg)</br>"
 date: "July 17, 2019 - ICC 2019 - Tokyo, Japan"
 output:
   xaringan::moon_reader:
@@ -12,13 +12,6 @@ output:
       - "libs/animate.min.css"
       - "libs/perso.css"
 
----
-
-class: slide, animated, fadeIn
-
-## INTRO
-
-Pas indispensable
 ---
 
 class: inverse, center, bottom, animated, zoomIn
@@ -35,23 +28,12 @@ class: slide, animated, fadeIn
 ## Ensuring Reproducibility and Collaborative Work with:
 
 
-==> Schéma 
 
-## A free software for statistical computing and graphics
+### A free software for statistical computing and graphics
 
-+
- 
-## A literate programming solution
+### A literate programming solution
 
-+
-
-## A version control system
-
-=
-```{r, echo=FALSE}
-cat("\u2764")
-
-```
+### A version control system
 
 
 ---
