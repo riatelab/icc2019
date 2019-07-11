@@ -114,7 +114,7 @@ class: center, slide, animated, fadeIn
 
 ???
 
-We have a lot of information on this topic for a long time. It is often reported in the medias. But this subject has long been treated in a succession of special events (news).
+Actually, we have a lot of information on this topic for a long time. It is often reported in the medias. But this subject has long been treated in a succession of special events (news).
 
 ---
 
@@ -139,7 +139,7 @@ background-size: cover
 
 ???
 
-The first map of dead migrants at the borders of the European Union was created in 2003 by the French geographer Olivier Clochard. 
+The first map of dead and missing migrants at the borders of the European Union was created in 2003 by the French geographer Olivier Clochard. 
 
 The principle of this map is simple. It combines quantitative information: the number of dead and missing migrants represented by the surface of the circles. And qualitative information: the cause of death represented by color. 
 
@@ -157,7 +157,7 @@ background-size: cover
 
 ???
 
-In 2006, Olivier Clochard's work was reworked by cartographer Philippe Rekacewicz to be published in a French newspaper: Le Monde diplomatique. 
+In 2006, Olivier Clochard's work was redesigned by cartographer Philippe Rekacewicz to be published in a French newspaper: Le Monde diplomatique. 
 
 ---
 
@@ -172,7 +172,7 @@ background-size: cover
 
 ???
 
-Then, this map, always made according to the same principles, was updated many times by the cartographers of the Migreurop network
+Then, this map, always made according to the same principles, was updated many times by the cartographers of the Migreurop network. In 2009
 
 ---
 
@@ -185,6 +185,10 @@ background-size: cover
 
 <img src="img/mig2012.png" id="topright"/>
 
+???
+In 2012
+
+
 ---
 
 class: slide, animated, fadeIn
@@ -193,6 +197,9 @@ background-image: url("img/map2015.png")
 background-size: cover
 
 ## Migreurop, 2015
+
+???
+In 2015
 
 ---
 
@@ -203,6 +210,9 @@ background-size: cover
 
 ## Migreurop, 2017
 
+
+???
+In 2017
 
 ---
 
@@ -242,6 +252,11 @@ class: slide, animated, fadeIn
 
 <!-- <iframe src="http://localhost/MDM/" frameborder="0" allowfullscreen="true" width="100%" height="80%"> </iframe> -->
 
+???
+
+The aim of this presentation is to demonstrate how it is possible to produce maps of migrants who died in the Mediterranean in a reproducible research approach. 
+
+On the screen here, you can see an overview of the R program (commented in Markdown), which have produced the maps that I will now present to you.  These programs, as well as this presentation, were realized in a collaborative way by Nicolas Lambert and myself and are now and already online on the github platform. 
 ---
 
 class: center, slide, animated, fadeIn
@@ -282,6 +297,14 @@ All known shipwrecks are displayed | Overlay of symbols
 The location of each shipwreck is correct.| 
 ]
 
+
+???
+This first map is a very classic map with a symbolisation bay proportionnal symbols.  Each circle corresponds to a shipwreck. The surface area of the circles corresponds to the number of people who have died or gone missing since 1 January 2014. 
+
+This map allows us to identify the most deadly locations for migrants. Gibraltar. The Aegean Sea. And mainly off the Libyan coast towards Italy. 
+
+A problem: there is a lot of overlapping of symbols. A large part of the information is hidden.  
+
 ---
 
 class: slide, animated, fadeIn
@@ -296,6 +319,11 @@ class: slide, animated, fadeIn
 Good overview  | We can't see every shipwreck
 Allows to know the values by migration route  | Each stories are grouped together
 ]
+
+???
+This second map provides an aggregation of data according to location. The method, based on a cluster analysis on geographical coordinates, makes it possible to show the importance of the phenomenon for each migration route. More than thirteen thousand between Libya and Italy in 5 years. 
+
+A disadvantage: the map no longer allows to see the number of shipwrecks. 
 
 ---
 
@@ -312,6 +340,14 @@ Good overview | Not natural representation
 Allows to detect the most dangerous areas (Libyan coasts) | Does not allow to consider the quantities
 ]
 
+???
+
+This map is based on the aggregation method on a regular grid. This map gives an overview of the phenomenon and makes it possible to identify the most dangerous areas. Here, off the Libyan coast, in this square. 
+
+From a political point of view, this map alerts to the need for rescue operations in Libyan territorial waters. 
+
+weak point: this type of map does not reflect quantities. 
+
 ---
 
 class: slide, animated, fadeIn
@@ -326,6 +362,14 @@ class: slide, animated, fadeIn
 highlights geographical structures  | We can't see every shipwreck
 Allows to locate the most dangerous areas  | Does not allow to consider the quantities
 ]
+
+???
+
+This map is the most complicated even if its appearance is very simple. It was realized through the Stewart's method of potentials, which consists in calculating at any point in space, the number of dead or missing persons in a given neighbourhood. For more details, you can consult the literature on bibliography at the end of our paper.
+
+As before, this map makes it possible to identify the most dangerous areas and to set up a simple geographical organisation, easily understable. 
+
+The originality of this map also resides in the use of the Tanaka method, which gives this relief effect. 
 
 ---
 
@@ -343,6 +387,10 @@ class: center, slide, animated, fadeIn
 The **`tanaka` package** has been released on CRAN. This package is a simplified implementation of the Tanaka method.
 ]
 
+???
+
+Note that the Tanaka method was used in the logo of this conference.
+
 ---
 
 class: slide, animated, fadeIn
@@ -357,6 +405,9 @@ class: slide, animated, fadeIn
 highlights geographical structures   | We can't see every shipwreck
 Allows to locate the most dangerous areas  | Does not allow to consider the quantities
 ]
+
+???
+In the R program, the previous map can be easily modified by inverting the values and changing the colors. 
 
 
 ---
@@ -376,6 +427,8 @@ Allows to locate the most dangerous areas  | Does not allow to consider the quan
 
 <img src="img/metaphor.png" id="topright2"/>
 
+???
+Thus a map appears where the Mediterranean Sea is turned into a vast whirlpool in which the migrants disappear. A kind of cartographic metaphor that reminds us of newspaper pictures. 
 
 ---
 
@@ -392,6 +445,11 @@ Good overview  | The location of the shipwrecks is inaccurate
 All known shipwrecks are displayed | 
 ]
 
+???
+Finally, this sixth map, which uses the Dorling method, has a double advantage. It allows both to identify the number of dead and missing persons in each shipwreck and to show the extent of the phenomenon for each migration route. Here, no circles are overlaid.
+
+The only disadvantage is that the geographical location of the shipwrecks is not accurate.
+
 ---
 
 class: inverse, top, center, animated, zoomIn
@@ -402,18 +460,19 @@ class: inverse, top, center, animated, zoomIn
 
 ???
 
-No map is 100% efficient. Multi-representation makes it possible to show the complexity of a geographical phenomenon in various aspects. 
+In conclusion, we can say that no map is 100% efficient. Each map has strengths and weaknesses. Each map focuses on one aspect of the data rather than another. Multi-representation makes it possible to show the complexity of a geographical phenomenon in various aspects. The multiplicity of maps allows a better understanding of geographical phenomena. 
 
-Reproducible processes allows:
+Second element of conclusion: reproducible processes allows:
 - maps to be updated easily and quickly. 
 - several people to work together
 - transparency and tracability
-- work to be shared
+- maps and methods to be shared
+
 ---
 
 class: center, middle
 
-# Thanks!
+# ありがとうございます 
 
 
 .pull-left[
@@ -429,6 +488,11 @@ class: center, middle
 
 <br/><br/><hr/>
 
-Maps and code sources are available on github:[**riatelab.github.io/MDM**](https://riatelab.github.io/MDM/).<br/>Test by yourself!
+Maps and code sources are available on github: [**riatelab.github.io/MDM**](https://riatelab.github.io/MDM/).<br/>Test by yourself!
 
 <hr/>
+
+???
+If you want to know more or reproduce these examples by yourself, the source code of the maps are available online at this link.
+
+Thank you. 
